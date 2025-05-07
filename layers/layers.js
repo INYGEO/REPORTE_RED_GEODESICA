@@ -75,18 +75,18 @@ var lyr_PRIMARIAYSECUNDARIA_4 = new ol.layer.Vector({
 
 lyr_google_0.setVisible(true);lyr_LOCALIZADASCONPLACA_1.setVisible(true);lyr_LOCALIZADOSAMONUMENTAR_2.setVisible(true);lyr_PROPUESTOSPORCATASTRO_3.setVisible(true);lyr_PRIMARIAYSECUNDARIA_4.setVisible(true);
 var layersList = [lyr_google_0,lyr_LOCALIZADASCONPLACA_1,lyr_LOCALIZADOSAMONUMENTAR_2,lyr_PROPUESTOSPORCATASTRO_3,lyr_PRIMARIAYSECUNDARIA_4];
-lyr_LOCALIZADASCONPLACA_1.set('fieldAliases', {'III-004': 'III-004', '489458.365': '489458.365', '3598923.273': '3598923.273', });
-lyr_LOCALIZADOSAMONUMENTAR_2.set('fieldAliases', {'III-007': 'III-007', '488450.765': '488450.765', '3598211.238': '3598211.238', });
-lyr_PROPUESTOSPORCATASTRO_3.set('fieldAliases', {'III-001': 'III-001', '488766.036': '488766.036', '3599377.08': '3599377.08', });
-lyr_PRIMARIAYSECUNDARIA_4.set('fieldAliases', {'NUMERO': 'NUMERO', 'X': 'X', 'Y': 'Y', 'CLASE': 'CLASE', 'UBICACI�N': 'UBICACI�N', });
-lyr_LOCALIZADASCONPLACA_1.set('fieldImages', {'III-004': 'TextEdit', '489458.365': 'TextEdit', '3598923.273': 'TextEdit', });
-lyr_LOCALIZADOSAMONUMENTAR_2.set('fieldImages', {'III-007': 'TextEdit', '488450.765': 'TextEdit', '3598211.238': 'TextEdit', });
-lyr_PROPUESTOSPORCATASTRO_3.set('fieldImages', {'III-001': 'TextEdit', '488766.036': 'TextEdit', '3599377.08': 'TextEdit', });
-lyr_PRIMARIAYSECUNDARIA_4.set('fieldImages', {'NUMERO': 'TextEdit', 'X': 'TextEdit', 'Y': 'TextEdit', 'CLASE': 'TextEdit', 'UBICACI�N': 'TextEdit', });
-lyr_LOCALIZADASCONPLACA_1.set('fieldLabels', {'III-004': 'inline label - visible with data', '489458.365': 'hidden field', '3598923.273': 'hidden field', });
-lyr_LOCALIZADOSAMONUMENTAR_2.set('fieldLabels', {'III-007': 'inline label - visible with data', '488450.765': 'hidden field', '3598211.238': 'hidden field', });
-lyr_PROPUESTOSPORCATASTRO_3.set('fieldLabels', {'III-001': 'inline label - visible with data', '488766.036': 'hidden field', '3599377.08': 'hidden field', });
-lyr_PRIMARIAYSECUNDARIA_4.set('fieldLabels', {'NUMERO': 'inline label - visible with data', 'X': 'hidden field', 'Y': 'hidden field', 'CLASE': 'inline label - visible with data', 'UBICACI�N': 'inline label - visible with data', });
+lyr_LOCALIZADASCONPLACA_1.set('fieldAliases', {'NUMERO': 'NUMERO', '489458.365': '489458.365', '3598923.27': '3598923.27', });
+lyr_LOCALIZADOSAMONUMENTAR_2.set('fieldAliases', {'NUMERO': 'NUMERO', '488450.765': '488450.765', '3598211.23': '3598211.23', });
+lyr_PROPUESTOSPORCATASTRO_3.set('fieldAliases', {'NUMERO': 'NUMERO', '488766.036': '488766.036', '3599377.08': '3599377.08', });
+lyr_PRIMARIAYSECUNDARIA_4.set('fieldAliases', {'NUMERO': 'NUMERO', 'X': 'X', 'Y': 'Y', 'CLASE': 'CLASE', 'UBICACION': 'UBICACION', });
+lyr_LOCALIZADASCONPLACA_1.set('fieldImages', {'NUMERO': 'TextEdit', '489458.365': 'TextEdit', '3598923.27': 'TextEdit', });
+lyr_LOCALIZADOSAMONUMENTAR_2.set('fieldImages', {'NUMERO': 'TextEdit', '488450.765': 'TextEdit', '3598211.23': 'TextEdit', });
+lyr_PROPUESTOSPORCATASTRO_3.set('fieldImages', {'NUMERO': 'TextEdit', '488766.036': 'TextEdit', '3599377.08': 'TextEdit', });
+lyr_PRIMARIAYSECUNDARIA_4.set('fieldImages', {'NUMERO': 'TextEdit', 'X': 'TextEdit', 'Y': 'TextEdit', 'CLASE': 'TextEdit', 'UBICACION': 'TextEdit', });
+lyr_LOCALIZADASCONPLACA_1.set('fieldLabels', {'NUMERO': 'inline label - visible with data', '489458.365': 'hidden field', '3598923.27': 'hidden field', });
+lyr_LOCALIZADOSAMONUMENTAR_2.set('fieldLabels', {'NUMERO': 'inline label - visible with data', '488450.765': 'hidden field', '3598211.23': 'hidden field', });
+lyr_PROPUESTOSPORCATASTRO_3.set('fieldLabels', {'NUMERO': 'inline label - visible with data', '488766.036': 'hidden field', '3599377.08': 'hidden field', });
+lyr_PRIMARIAYSECUNDARIA_4.set('fieldLabels', {'NUMERO': 'inline label - visible with data', 'X': 'hidden field', 'Y': 'hidden field', 'CLASE': 'inline label - visible with data', 'UBICACION': 'inline label - visible with data', });
 lyr_PRIMARIAYSECUNDARIA_4.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
